@@ -1,6 +1,6 @@
 Vendor: Cisco https://www.cisco.com
 
-Product: Cisco Router RV110W
+Product: Cisco Router RV110W and other router products
 
 Tested Version: RV110W V1.2.1.7
 
