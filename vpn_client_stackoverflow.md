@@ -12,7 +12,9 @@ I found a buffer overflow vulnerability in the router's web server--httpd. While
 The details are shown below:
 ![image](https://github.com/pwnninja/cisco/blob/main/images/vpn_clientStackoverflow1.PNG)
 POC: 
+![image](https://github.com/pwnninja/cisco/blob/main/images/vpn_clientStackoverflow3.PNG)
+
 ![image](https://github.com/pwnninja/cisco/blob/main/images/vpn_clientStackoverflow2.PNG)
 
-![image](https://github.com/pwnninja/cisco/blob/main/images/vpn_clientStackoverflow3.PNG)
+
 As you can see in the above figure, if an attacker post data "vpn_account=x,x,x,x"(string x is very long), the return address of the function will be overriden and result in a DoS.
