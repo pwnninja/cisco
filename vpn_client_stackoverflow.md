@@ -1,6 +1,7 @@
 Vendor: Cisco https://www.cisco.com
 
-Product: Cisco Router RV110W 
+Product: Cisco Router RV110W
+
 Tested Version: RV110W V1.2.1.7
 
 Type: Stack overflow
